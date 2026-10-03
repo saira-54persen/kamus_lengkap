@@ -1,206 +1,1544 @@
 [
-    { "id": "Saya", "arab": "أَنَا", "latin": "Ana", "kat": "Kata Ganti" },
-    { "id": "Kami / Kita", "arab": "نَحْنُ", "latin": "Nahnu", "kat": "Kata Ganti" },
-    { "id": "Kamu (L)", "arab": "أَنْتَ", "latin": "Anta", "kat": "Kata Ganti" },
-    { "id": "Kamu (P)", "arab": "أَنْتِ", "latin": "Anti", "kat": "Kata Ganti" },
-    { "id": "Dia (L)", "arab": "هُوَ", "latin": "Huwa", "kat": "Kata Ganti" },
-    { "id": "Dia (P)", "arab": "هِيَ", "latin": "Hiya", "kat": "Kata Ganti" },
-    { "id": "Kalian (L)", "arab": "أَنْتُمْ", "latin": "Antum", "kat": "Kata Ganti" },
-    { "id": "Mereka (L)", "arab": "هُمْ", "latin": "Hum", "kat": "Kata Ganti" },
-    { "id": "Ini (Muzakkar)", "arab": "هَذَا", "latin": "Haadza", "kat": "Kata Ganti" },
-    { "id": "Ini (Muannats)", "arab": "هَذِهِ", "latin": "Haadzihi", "kat": "Kata Ganti" },
-    { "id": "Itu (Muzakkar)", "arab": "ذَلِكَ", "latin": "Dzalika", "kat": "Kata Ganti" },
-    { "id": "Itu (Muannats)", "arab": "تِلْكَ", "latin": "Tilka", "kat": "Kata Ganti" },
-
-    { "id": "Keluarga", "arab": "أُسْرَةٌ", "latin": "Usratun", "kat": "Keluarga" },
-    { "id": "Ayah", "arab": "أَبٌ", "latin": "Abun", "kat": "Keluarga" },
-    { "id": "Ibu", "arab": "أُمٌّ", "latin": "Ummun", "kat": "Keluarga" },
-    { "id": "Anak Laki-laki", "arab": "وَلَدٌ / اِبْنٌ", "latin": "Waladun / Ibnun", "kat": "Keluarga" },
-    { "id": "Anak Perempuan", "arab": "بِنْتٌ", "latin": "Bintun", "kat": "Keluarga" },
-    { "id": "Saudara Laki-laki", "arab": "أَخٌ", "latin": "Akhun", "kat": "Keluarga" },
-    { "id": "Saudara Perempuan", "arab": "أُخْتٌ", "latin": "Ukhtun", "kat": "Keluarga" },
-    { "id": "Kakek", "arab": "جَدٌّ", "latin": "Jaddun", "kat": "Keluarga" },
-    { "id": "Nenek", "arab": "جَدَّةٌ", "latin": "Jaddatun", "kat": "Keluarga" },
-    { "id": "Paman (dari Ayah)", "arab": "عَمٌّ", "latin": "'Ammun", "kat": "Keluarga" },
-    { "id": "Bibi (dari Ayah)", "arab": "عَمَّةٌ", "latin": "'Ammatun", "kat": "Keluarga" },
-    { "id": "Paman (dari Ibu)", "arab": "خَالٌ", "latin": "Khaalun", "kat": "Keluarga" },
-    { "id": "Bibi (dari Ibu)", "arab": "خَالَةٌ", "latin": "Khaalatun", "kat": "Keluarga" },
-    { "id": "Suami", "arab": "زَوْجٌ", "latin": "Zawjun", "kat": "Keluarga" },
-    { "id": "Istri", "arab": "زَوْجَةٌ", "latin": "Zawjatun", "kat": "Keluarga" },
-
-    { "id": "Tubuh / Badan", "arab": "جِسْمٌ", "latin": "Jismun", "kat": "Anggota Tubuh" },
-    { "id": "Kepala", "arab": "رَأْسٌ", "latin": "Ra'sun", "kat": "Anggota Tubuh" },
-    { "id": "Rambut", "arab": "شَعْرٌ", "latin": "Sya'run", "kat": "Anggota Tubuh" },
-    { "id": "Mata", "arab": "عَيْنٌ", "latin": "'Aynun", "kat": "Anggota Tubuh" },
-    { "id": "Hidung", "arab": "أَنْفٌ", "latin": "Anfun", "kat": "Anggota Tubuh" },
-    { "id": "Telinga", "arab": "أُذُنٌ", "latin": "Udzunun", "kat": "Anggota Tubuh" },
-    { "id": "Mulut", "arab": "فَمٌ", "latin": "Famun", "kat": "Anggota Tubuh" },
-    { "id": "Gigi", "arab": "سِنٌّ", "latin": "Sinnun", "kat": "Anggota Tubuh" },
-    { "id": "Lidah", "arab": "لِسَانٌ", "latin": "Lisaanun", "kat": "Anggota Tubuh" },
-    { "id": "Wajah / Muka", "arab": "وَجْهٌ", "latin": "Wajhun", "kat": "Anggota Tubuh" },
-    { "id": "Tangan", "arab": "يَدٌ", "latin": "Yadun", "kat": "Anggota Tubuh" },
-    { "id": "Jari", "arab": "إِصْبَعٌ", "latin": "Ishba'un", "kat": "Anggota Tubuh" },
-    { "id": "Dada", "arab": "صَدْرٌ", "latin": "Shadrun", "kat": "Anggota Tubuh" },
-    { "id": "Perut", "arab": "بَطْنٌ", "latin": "Bathnun", "kat": "Anggota Tubuh" },
-    { "id": "Kaki", "arab": "رِجْلٌ", "latin": "Rijlun", "kat": "Anggota Tubuh" },
-    { "id": "Darah", "arab": "دَمٌ", "latin": "Damun", "kat": "Anggota Tubuh" },
-
-    { "id": "Rumah", "arab": "بَيْتٌ", "latin": "Baitun", "kat": "Rumah" },
-    { "id": "Pintu", "arab": "بَابٌ", "latin": "Baabun", "kat": "Rumah" },
-    { "id": "Jendela", "arab": "نَافِذَةٌ", "latin": "Naafidzatun", "kat": "Rumah" },
-    { "id": "Kamar", "arab": "غُرْفَةٌ", "latin": "Ghurfatun", "kat": "Rumah" },
-    { "id": "Dapur", "arab": "مَطْبَخٌ", "latin": "Mathbakhun", "kat": "Rumah" },
-    { "id": "Kamar Mandi", "arab": "حَمَّامٌ", "latin": "Hammaamun", "kat": "Rumah" },
-    { "id": "Ranjang / Tempat Tidur", "arab": "سَرِيْرٌ", "latin": "Sariirun", "kat": "Rumah" },
-    { "id": "Bantal", "arab": "وِسَادَةٌ", "latin": "Wisaadatun", "kat": "Rumah" },
-    { "id": "Lemari", "arab": "خِزَانَةٌ", "latin": "Khizaanatun", "kat": "Rumah" },
-    { "id": "Kunci", "arab": "مِفْتَاحٌ", "latin": "Miftaahun", "kat": "Rumah" },
-    { "id": "Lampu", "arab": "مِصْبَاحٌ", "latin": "Mishbaahun", "kat": "Rumah" },
-    { "id": "Kipas Angin", "arab": "مِرْوَحَةٌ", "latin": "Mirwahatun", "kat": "Rumah" },
-    { "id": "Karpet", "arab": "سَجَّادَةٌ", "latin": "Sajjaadatun", "kat": "Rumah" },
-
-    { "id": "Makanan", "arab": "طَعَامٌ", "latin": "Tha'aamun", "kat": "Makanan & Minuman" },
-    { "id": "Minuman", "arab": "شَرَابٌ", "latin": "Syaraabun", "kat": "Makanan & Minuman" },
-    { "id": "Nasi", "arab": "أَرُزٌّ", "latin": "Aruzzun", "kat": "Makanan & Minuman" },
-    { "id": "Roti", "arab": "خُبْزٌ", "latin": "Khubzun", "kat": "Makanan & Minuman" },
-    { "id": "Daging", "arab": "لَحْمٌ", "latin": "Lahmun", "kat": "Makanan & Minuman" },
-    { "id": "Ikan (Lauk)", "arab": "سَمَكٌ", "latin": "Samakun", "kat": "Makanan & Minuman" },
-    { "id": "Telur", "arab": "بَيْضَةٌ", "latin": "Baidhatun", "kat": "Makanan & Minuman" },
-    { "id": "Air", "arab": "مَاءٌ", "latin": "Maa'un", "kat": "Makanan & Minuman" },
-    { "id": "Susu", "arab": "حَلِيْبٌ", "latin": "Haliibun", "kat": "Makanan & Minuman" },
-    { "id": "Kopi", "arab": "قَهْوَةٌ", "latin": "Qahwatun", "kat": "Makanan & Minuman" },
-    { "id": "Teh", "arab": "شَايٌ", "latin": "Syaayun", "kat": "Makanan & Minuman" },
-    { "id": "Gula", "arab": "سُكَّرٌ", "latin": "Sukkarun", "kat": "Makanan & Minuman" },
-    { "id": "Garam", "arab": "مِلْحٌ", "latin": "Milhun", "kat": "Makanan & Minuman" },
-    { "id": "Piring", "arab": "صَحْنٌ", "latin": "Shahnun", "kat": "Makanan & Minuman" },
-    { "id": "Gelas", "arab": "كُوْبٌ", "latin": "Kuubun", "kat": "Makanan & Minuman" },
-    { "id": "Sendok", "arab": "مِلْعَقَةٌ", "latin": "Mil'aqatun", "kat": "Makanan & Minuman" },
-
-    { "id": "Apel", "arab": "تُفَّاحٌ", "latin": "Tuffaahun", "kat": "Buah & Sayur" },
-    { "id": "Jeruk", "arab": "بُرْتُقَالٌ", "latin": "Burtuqaalun", "kat": "Buah & Sayur" },
-    { "id": "Pisang", "arab": "مَوْزٌ", "latin": "Mawzun", "kat": "Buah & Sayur" },
-    { "id": "Anggur", "arab": "عِنَبٌ", "latin": "'Inabun", "kat": "Buah & Sayur" },
-    { "id": "Semangka", "arab": "بِطِّيْخٌ", "latin": "Biththiikhun", "kat": "Buah & Sayur" },
-    { "id": "Kurma", "arab": "تَمْرٌ", "latin": "Tamrun", "kat": "Buah & Sayur" },
-    { "id": "Bawang Merah", "arab": "بَصَلٌ", "latin": "Bashalun", "kat": "Buah & Sayur" },
-    { "id": "Bawang Putih", "arab": "ثُوْمٌ", "latin": "Tsuumun", "kat": "Buah & Sayur" },
-
-    { "id": "Pakaian", "arab": "لِبَاسٌ", "latin": "Libaasun", "kat": "Pakaian" },
-    { "id": "Kemeja / Baju", "arab": "قَمِيْصٌ", "latin": "Qamiishun", "kat": "Pakaian" },
-    { "id": "Celana", "arab": "سِرْوَالٌ", "latin": "Sirwaalun", "kat": "Pakaian" },
-    { "id": "Sepatu", "arab": "حِذَاءٌ", "latin": "Hidzaa'un", "kat": "Pakaian" },
-    { "id": "Sandal", "arab": "نَعْلٌ", "latin": "Na'lun", "kat": "Pakaian" },
-    { "id": "Kacamata", "arab": "نَظَّارَةٌ", "latin": "Nazh-zhaaratun", "kat": "Pakaian" },
-    { "id": "Cincin", "arab": "خَاتَمٌ", "latin": "Khaatamun", "kat": "Pakaian" },
-
-    { "id": "Kucing", "arab": "قِطٌّ", "latin": "Qiththun", "kat": "Hewan" },
-    { "id": "Anjing", "arab": "كَلْبٌ", "latin": "Kalbun", "kat": "Hewan" },
-    { "id": "Kuda", "arab": "حِصَانٌ", "latin": "Hishaanun", "kat": "Hewan" },
-    { "id": "Kambing", "arab": "غَنَمٌ", "latin": "Ghanamun", "kat": "Hewan" },
-    { "id": "Sapi", "arab": "بَقَرَةٌ", "latin": "Baqaratun", "kat": "Hewan" },
-    { "id": "Unta", "arab": "جَمَلٌ", "latin": "Jamalun", "kat": "Hewan" },
-    { "id": "Ayam", "arab": "دَجَاجَةٌ", "latin": "Dajaajatun", "kat": "Hewan" },
-    { "id": "Burung", "arab": "طَائِرٌ", "latin": "Thaa'irun", "kat": "Hewan" },
-    { "id": "Singa", "arab": "أَسَدٌ", "latin": "Asadun", "kat": "Hewan" },
-    { "id": "Gajah", "arab": "فِيْلٌ", "latin": "Fiilun", "kat": "Hewan" },
-    { "id": "Tikus", "arab": "فَأْرٌ", "latin": "Fa'run", "kat": "Hewan" },
-    { "id": "Semut", "arab": "نَمْلَةٌ", "latin": "Namlatun", "kat": "Hewan" },
-    { "id": "Nyamuk", "arab": "بَعُوْضَةٌ", "latin": "Ba'uudhatun", "kat": "Hewan" },
-    { "id": "Ular", "arab": "ثُعْبَانٌ", "latin": "Tsu'baanun", "kat": "Hewan" },
-
-    { "id": "Sekolah", "arab": "مَدْرَسَةٌ", "latin": "Madrasatun", "kat": "Sekolah" },
-    { "id": "Universitas", "arab": "جَامِعَةٌ", "latin": "Jaami'atun", "kat": "Sekolah" },
-    { "id": "Kelas", "arab": "فَصْلٌ", "latin": "Fashlun", "kat": "Sekolah" },
-    { "id": "Buku", "arab": "كِتَابٌ", "latin": "Kitaabun", "kat": "Sekolah" },
-    { "id": "Buku Tulis", "arab": "دَفْتَرٌ", "latin": "Daftarun", "kat": "Sekolah" },
-    { "id": "Pena / Pulpen", "arab": "قَلَمٌ", "latin": "Qalamun", "kat": "Sekolah" },
-    { "id": "Tas", "arab": "حَقِيْبَةٌ", "latin": "Haqiibatun", "kat": "Sekolah" },
-    { "id": "Meja", "arab": "مَكْتَبٌ", "latin": "Maktabun", "kat": "Sekolah" },
-    { "id": "Kursi", "arab": "كُرْسِيٌّ", "latin": "Kursiyyun", "kat": "Sekolah" },
-    { "id": "Papan Tulis", "arab": "سَبُّوْرَةٌ", "latin": "Sabbuuratun", "kat": "Sekolah" },
-    { "id": "Guru (L)", "arab": "مُدَرِّسٌ / أُسْتَاذٌ", "latin": "Mudarrisun / Ustaadzun", "kat": "Sekolah" },
-    { "id": "Guru (P)", "arab": "مُدَرِّسَةٌ / أُسْتَاذَةٌ", "latin": "Mudarrisatun / Ustaadzatun", "kat": "Sekolah" },
-    { "id": "Murid (L)", "arab": "طَالِبٌ", "latin": "Thaalibun", "kat": "Sekolah" },
-    { "id": "Murid (P)", "arab": "طَالِبَةٌ", "latin": "Thaalibatun", "kat": "Sekolah" },
-    { "id": "Pelajaran", "arab": "دَرْسٌ", "latin": "Darsun", "kat": "Sekolah" },
-
-    { "id": "Dokter", "arab": "طَبِيْبٌ", "latin": "Thabiibun", "kat": "Profesi" },
-    { "id": "Insinyur", "arab": "مُهَنْدِسٌ", "latin": "Muhandisun", "kat": "Profesi" },
-    { "id": "Polisi", "arab": "شُرْطِيٌّ", "latin": "Syurthiyyun", "kat": "Profesi" },
-    { "id": "Tentara", "arab": "جُنْدِيٌّ", "latin": "Jundiyyun", "kat": "Profesi" },
-    { "id": "Pedagang", "arab": "تَاجِرٌ", "latin": "Taajirun", "kat": "Profesi" },
-    { "id": "Petani", "arab": "فَلَّاحٌ", "latin": "Fallaahun", "kat": "Profesi" },
-    { "id": "Pegawai", "arab": "مُوَظَّفٌ", "latin": "Muwazh-zhafun", "kat": "Profesi" },
-
-    { "id": "Mobil", "arab": "سَيَّارَةٌ", "latin": "Sayyaaratun", "kat": "Transportasi" },
-    { "id": "Motor", "arab": "جَوَّالَةٌ / دَرَّاجَةٌ نَارِيَّةٌ", "latin": "Jawwaalatun", "kat": "Transportasi" },
-    { "id": "Sepeda", "arab": "دَرَّاجَةٌ", "latin": "Darraajatun", "kat": "Transportasi" },
-    { "id": "Bus", "arab": "حَافِلَةٌ", "latin": "Haafilatun", "kat": "Transportasi" },
-    { "id": "Kereta Api", "arab": "قِطَارٌ", "latin": "Qithaarun", "kat": "Transportasi" },
-    { "id": "Pesawat", "arab": "طَائِرَةٌ", "latin": "Thaa'iratun", "kat": "Transportasi" },
-    { "id": "Kapal", "arab": "سَفِيْنَةٌ", "latin": "Safiinatun", "kat": "Transportasi" },
-
-    { "id": "Warna", "arab": "لَوْنٌ", "latin": "Lawnun", "kat": "Warna" },
-    { "id": "Merah", "arab": "أَحْمَرُ", "latin": "Ahmaru", "kat": "Warna" },
-    { "id": "Putih", "arab": "أَبْيَضُ", "latin": "Abyadhu", "kat": "Warna" },
-    { "id": "Hitam", "arab": "أَسْوَدُ", "latin": "Aswadu", "kat": "Warna" },
-    { "id": "Biru", "arab": "أَزْرَقُ", "latin": "Azraqu", "kat": "Warna" },
-    { "id": "Hijau", "arab": "أَخْضَرُ", "latin": "Akhdharu", "kat": "Warna" },
-    { "id": "Kuning", "arab": "أَصْفَرُ", "latin": "Ashfaru", "kat": "Warna" },
-
-    { "id": "Hari", "arab": "يَوْمٌ", "latin": "Yawmun", "kat": "Waktu" },
-    { "id": "Bulan", "arab": "شَهْرٌ", "latin": "Syahrun", "kat": "Waktu" },
-    { "id": "Tahun", "arab": "سَنَةٌ / عَامٌ", "latin": "Sanatun / 'Aamun", "kat": "Waktu" },
-    { "id": "Pagi", "arab": "صَبَاحٌ", "latin": "Shabaahun", "kat": "Waktu" },
-    { "id": "Siang", "arab": "نَهَارٌ", "latin": "Nahaarun", "kat": "Waktu" },
-    { "id": "Sore", "arab": "مَسَاءٌ", "latin": "Masaa'un", "kat": "Waktu" },
-    { "id": "Malam", "arab": "لَيْلٌ", "latin": "Laylun", "kat": "Waktu" },
-    { "id": "Jam", "arab": "سَاعَةٌ", "latin": "Saa'atun", "kat": "Waktu" },
-    { "id": "Hari Ini", "arab": "الْيَوْمَ", "latin": "Al-yawma", "kat": "Waktu" },
-    { "id": "Besok", "arab": "غَدًا", "latin": "Ghadan", "kat": "Waktu" },
-    { "id": "Kemarin", "arab": "أَمْسِ", "latin": "Amsi", "kat": "Waktu" },
-
-    { "id": "Langit", "arab": "سَمَاءٌ", "latin": "Samaa'un", "kat": "Alam" },
-    { "id": "Bumi", "arab": "أَرْضٌ", "latin": "Ardhun", "kat": "Alam" },
-    { "id": "Matahari", "arab": "شَمْسٌ", "latin": "Syamsun", "kat": "Alam" },
-    { "id": "Bulan (Satelit)", "arab": "قَمَرٌ", "latin": "Qamarun", "kat": "Alam" },
-    { "id": "Bintang", "arab": "نَجْمٌ", "latin": "Najmun", "kat": "Alam" },
-    { "id": "Gunung", "arab": "جَبَلٌ", "latin": "Jabalun", "kat": "Alam" },
-    { "id": "Laut", "arab": "بَحْرٌ", "latin": "Bahrun", "kat": "Alam" },
-    { "id": "Sungai", "arab": "نَهْرٌ", "latin": "Nahrun", "kat": "Alam" },
-    { "id": "Masjid", "arab": "مَسْجِدٌ", "latin": "Masjidun", "kat": "Alam" },
-    { "id": "Jalan", "arab": "شَارِعٌ", "latin": "Syaari'un", "kat": "Alam" },
-    { "id": "Pasar", "arab": "سُوْقٌ", "latin": "Suuqun", "kat": "Alam" },
-
-    { "id": "Besar", "arab": "كَبِيْرٌ", "latin": "Kabiirun", "kat": "Kata Sifat" },
-    { "id": "Kecil", "arab": "صَغِيْرٌ", "latin": "Shaghiirun", "kat": "Kata Sifat" },
-    { "id": "Panjang", "arab": "طَوِيْلٌ", "latin": "Thawiilun", "kat": "Kata Sifat" },
-    { "id": "Pendek", "arab": "قَصِيْرٌ", "latin": "Qashiirun", "kat": "Kata Sifat" },
-    { "id": "Baru", "arab": "جَدِيْدٌ", "latin": "Jadiidun", "kat": "Kata Sifat" },
-    { "id": "Lama / Kuno", "arab": "قَدِيْمٌ", "latin": "Qadiimun", "kat": "Kata Sifat" },
-    { "id": "Bagus / Baik", "arab": "جَيِّدٌ / حَسَنٌ", "latin": "Jayyidun / Hasanun", "kat": "Kata Sifat" },
-    { "id": "Jelek / Buruk", "arab": "سَيِّئٌ / قَبِيْحٌ", "latin": "Sayyi'un / Qabiihun", "kat": "Kata Sifat" },
-    { "id": "Cepat", "arab": "سَرِيْعٌ", "latin": "Sarii'un", "kat": "Kata Sifat" },
-    { "id": "Lambat", "arab": "بَطِيْءٌ", "latin": "Bathii'un", "kat": "Kata Sifat" },
-    { "id": "Jauh", "arab": "بَعِيْدٌ", "latin": "Ba'iidun", "kat": "Kata Sifat" },
-    { "id": "Dekat", "arab": "قَرِيْبٌ", "latin": "Qariibun", "kat": "Kata Sifat" },
-    { "id": "Panas", "arab": "حَارٌّ", "latin": "Haarrun", "kat": "Kata Sifat" },
-    { "id": "Dingin", "arab": "بَارِدٌ", "latin": "Baaridun", "kat": "Kata Sifat" },
-    { "id": "Bersih", "arab": "نَظِيْفٌ", "latin": "Nazhiifun", "kat": "Kata Sifat" },
-    { "id": "Kotor", "arab": "وَسِخٌ", "latin": "Wasikhun", "kat": "Kata Sifat" },
-
-    { "id": "Makan", "arab": "أَكَلَ - يَأْكُلُ", "latin": "Akala - Ya'kulu", "kat": "Kata Kerja" },
-    { "id": "Minum", "arab": "شَرِبَ - يَشْرَبُ", "latin": "Syariba - Yasyrabu", "kat": "Kata Kerja" },
-    { "id": "Tidur", "arab": "نَامَ - يَنَامُ", "latin": "Naama - Yanaamu", "kat": "Kata Kerja" },
-    { "id": "Bangun", "arab": "قَامَ - يَقُوْمُ", "latin": "Qaama - Yaqaumu", "kat": "Kata Kerja" },
-    { "id": "Duduk", "arab": "جَلَسَ - يَجْلِسُ", "latin": "Jalasa - Yajlisu", "kat": "Kata Kerja" },
-    { "id": "Berdiri", "arab": "وَقَفَ - يَقِفُ", "latin": "Waqafa - Yaqifu", "kat": "Kata Kerja" },
-    { "id": "Pergi", "arab": "ذَهَبَ - يَذْهَبُ", "latin": "Dzahaba - Yadzhabu", "kat": "Kata Kerja" },
-    { "id": "Pulang / Kembali", "arab": "رَجَعَ - يَرْجِعُ", "latin": "Raja'a - Yarji'u", "kat": "Kata Kerja" },
-    { "id": "Membaca", "arab": "قَرَأَ - يَقْرَأُ", "latin": "Qara'a - Yaqra'u", "kat": "Kata Kerja" },
-    { "id": "Menulis", "arab": "كَتَبَ - يَكْتُبُ", "latin": "Kataba - Yaktubu", "kat": "Kata Kerja" },
-    { "id": "Mendengar", "arab": "سَمِعَ - يَسْمَعُ", "latin": "Sami'a - Yasma'u", "kat": "Kata Kerja" },
-    { "id": "Melihat", "arab": "رَأَى - يَرَى", "latin": "Ra'aa - Yaraa", "kat": "Kata Kerja" },
-    { "id": "Mandi", "arab": "اِغْتَسَلَ - يَغْتَسِلُ", "latin": "Ightasala - Yaghtasilu", "kat": "Kata Kerja" },
-    { "id": "Shalat", "arab": "صَلَّى - يُصَلِّي", "latin": "Shallaa - Yushallii", "kat": "Kata Kerja" }
+    {
+        "id": "Air",
+        "arab": "مَاءٌ",
+        "latin": "Maa'un",
+        "kat": "Alam"
+    },
+    {
+        "id": "Anak Laki-laki",
+        "arab": "وَلَدٌ",
+        "latin": "Waladun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Anak Perempuan",
+        "arab": "بِنْتٌ",
+        "latin": "Bintun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Anggur",
+        "arab": "عِنَبٌ",
+        "latin": "'Inabun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Angin",
+        "arab": "رِيْحٌ",
+        "latin": "Riihun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Anjing",
+        "arab": "كَلْبٌ",
+        "latin": "Kalbun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Apel",
+        "arab": "تُفَّاحٌ",
+        "latin": "Tuffaahun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Api",
+        "arab": "نَارٌ",
+        "latin": "Naarun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Ayah",
+        "arab": "أَبٌ",
+        "latin": "Abun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Ayam",
+        "arab": "دَجَاجَةٌ",
+        "latin": "Dajaajatun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Bagus / Baik",
+        "arab": "جَيِّدٌ / حَسَنٌ",
+        "latin": "Jayyidun / Hasanun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Baik",
+        "arab": "حَسَنٌ / خَيْرٌ",
+        "latin": "Hasanun / Khairun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Baju",
+        "arab": "ثَوْبٌ",
+        "latin": "Tsaubun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Bangun",
+        "arab": "قَامَ - يَقُوْمُ",
+        "latin": "Qaama - Yaqaumu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Bantal",
+        "arab": "وِسَادَةٌ",
+        "latin": "Wisaadatun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Banyak",
+        "arab": "كَثِيْرٌ",
+        "latin": "Katsiirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Baru",
+        "arab": "جَدِيْدٌ",
+        "latin": "Jadiidun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Batu",
+        "arab": "حَجَرٌ",
+        "latin": "Hajarun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Bawang Merah",
+        "arab": "بَصَلٌ",
+        "latin": "Bashalun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Bawang Putih",
+        "arab": "ثُوْمٌ",
+        "latin": "Tsuumun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Berdiri",
+        "arab": "وَقَفَ - يَقِفُ",
+        "latin": "Waqafa - Yaqifu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Bersih",
+        "arab": "نَظِيْفٌ",
+        "latin": "Nazhiifun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Besar",
+        "arab": "كَبِيْرٌ",
+        "latin": "Kabiirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Besok",
+        "arab": "غَدًا",
+        "latin": "Ghadan",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Bibi (dari Ayah)",
+        "arab": "عَمَّةٌ",
+        "latin": "'Ammatun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Bibi (dari Ibu)",
+        "arab": "خَالَةٌ",
+        "latin": "Khaalatun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Bintang",
+        "arab": "نَجْمٌ",
+        "latin": "Najmun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Biru",
+        "arab": "أَزْرَقُ",
+        "latin": "Azraqu",
+        "kat": "Warna"
+    },
+    {
+        "id": "Buku",
+        "arab": "كِتَابٌ",
+        "latin": "Kitaabun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Buku Tulis",
+        "arab": "دَفْتَرٌ",
+        "latin": "Daftarun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Bulan",
+        "arab": "شَهْرٌ",
+        "latin": "Syahrun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Bulan (Satelit)",
+        "arab": "قَمَرٌ",
+        "latin": "Qamarun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Bumi",
+        "arab": "أَرْضٌ",
+        "latin": "Ardhun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Burung",
+        "arab": "طَائِرٌ",
+        "latin": "Thaa'irun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Bus",
+        "arab": "حَافِلَةٌ",
+        "latin": "Haafilatun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Cahaya",
+        "arab": "نُوْرٌ",
+        "latin": "Nuurun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Cantik",
+        "arab": "جَمِيْلٌ",
+        "latin": "Jamiilun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Celana",
+        "arab": "سِرْوَالٌ",
+        "latin": "Sirwaalun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Cepat",
+        "arab": "سَرِيْعٌ",
+        "latin": "Sarii'un",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Cerdas",
+        "arab": "ذَكِيٌّ",
+        "latin": "Dzakiyyun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Cincin",
+        "arab": "خَاتَمٌ",
+        "latin": "Khaatamun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Dada",
+        "arab": "صَدْرٌ",
+        "latin": "Shadrun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Daging",
+        "arab": "لَحْمٌ",
+        "latin": "Lahmun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Dapur",
+        "arab": "مَطْبَخٌ",
+        "latin": "Mathbakhun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Darah",
+        "arab": "دَمٌ",
+        "latin": "Damun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Datang",
+        "arab": "جَاءَ",
+        "latin": "Jaa'a",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Dekat",
+        "arab": "قَرِيْبٌ",
+        "latin": "Qariibun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Dia (L)",
+        "arab": "هُوَ",
+        "latin": "Huwa",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Dia (P)",
+        "arab": "هِيَ",
+        "latin": "Hiya",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Dinding",
+        "arab": "جِدَارٌ",
+        "latin": "Jidaarun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Dingin",
+        "arab": "بَارِدٌ",
+        "latin": "Baaridun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Dokter",
+        "arab": "طَبِيْبٌ",
+        "latin": "Thabiibun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Duduk",
+        "arab": "جَلَسَ - يَجْلِسُ",
+        "latin": "Jalasa - Yajlisu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Ekor",
+        "arab": "ذَنَبٌ",
+        "latin": "Dzanabun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Emas",
+        "arab": "ذَهَبٌ",
+        "latin": "Dzahabun",
+        "kat": "Benda"
+    },
+    {
+        "id": "Es",
+        "arab": "ثَلْجٌ",
+        "latin": "Tsaljun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Fakir",
+        "arab": "فَقِيْرٌ",
+        "latin": "Faqiirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Fasih",
+        "arab": "فَصِيْحٌ",
+        "latin": "Fasiihun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Gajah",
+        "arab": "فِيْلٌ",
+        "latin": "Fiilun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Garam",
+        "arab": "مِلْحٌ",
+        "latin": "Milhun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Gelap",
+        "arab": "ظَلَامٌ",
+        "latin": "Zhalaamun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Gelas",
+        "arab": "كُوْبٌ",
+        "latin": "Kuubun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Gigi",
+        "arab": "سِنٌّ",
+        "latin": "Sinnun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Gila",
+        "arab": "مَجْنُوْنٌ",
+        "latin": "Majnuunun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Gula",
+        "arab": "سُكَّرٌ",
+        "latin": "Sukkarun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Gunung",
+        "arab": "جَبَلٌ",
+        "latin": "Jabalun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Guru (L)",
+        "arab": "مُدَرِّسٌ / أُسْتَاذٌ",
+        "latin": "Mudarrisun / Ustaadzun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Guru (P)",
+        "arab": "مُدَرِّسَةٌ / أُسْتَاذَةٌ",
+        "latin": "Mudarrisatun / Ustaadzatun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Hari",
+        "arab": "يَوْمٌ",
+        "latin": "Yaumun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Hari Ini",
+        "arab": "الْيَوْمَ",
+        "latin": "Al-yawma",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Hati",
+        "arab": "قَلْبٌ",
+        "latin": "Qalbun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Hidung",
+        "arab": "أَنْفٌ",
+        "latin": "Anfun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Hijau",
+        "arab": "أَخْضَرُ",
+        "latin": "Akhdharu",
+        "kat": "Warna"
+    },
+    {
+        "id": "Hitam",
+        "arab": "أَسْوَدُ",
+        "latin": "Aswadu",
+        "kat": "Warna"
+    },
+    {
+        "id": "Hujan",
+        "arab": "مَطَرٌ",
+        "latin": "Matarun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Hutan",
+        "arab": "غَابَةٌ",
+        "latin": "Ghaabatun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Ibu",
+        "arab": "أُمٌّ",
+        "latin": "Ummun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Ikan",
+        "arab": "سَمَكٌ",
+        "latin": "Samakun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Ikan (Lauk)",
+        "arab": "سَمَكٌ",
+        "latin": "Samakun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Ilmu",
+        "arab": "عِلْمٌ",
+        "latin": "'Ilmun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Iman",
+        "arab": "إِيْمَانٌ",
+        "latin": "Iimaanun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Ini (Muannats)",
+        "arab": "هَذِهِ",
+        "latin": "Haadzihi",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Ini (Muzakkar)",
+        "arab": "هَذَا",
+        "latin": "Haadza",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Insinyur",
+        "arab": "مُهَنْدِسٌ",
+        "latin": "Muhandisun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Intan",
+        "arab": "أَلْمَاسٌ",
+        "latin": "Almaasun",
+        "kat": "Benda"
+    },
+    {
+        "id": "Istri",
+        "arab": "زَوْجَةٌ",
+        "latin": "Zaujatun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Itu (Muannats)",
+        "arab": "تِلْكَ",
+        "latin": "Tilka",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Itu (Muzakkar)",
+        "arab": "ذَلِكَ",
+        "latin": "Dzalika",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Jalan",
+        "arab": "طَرِيْقٌ",
+        "latin": "Thariiqun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Jam",
+        "arab": "سَاعَةٌ",
+        "latin": "Saa'atun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Jari",
+        "arab": "إِصْبَعٌ",
+        "latin": "Ishba'un",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Jauh",
+        "arab": "بَعِيْدٌ",
+        "latin": "Ba'iidun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Jelek",
+        "arab": "قَبِيْحٌ",
+        "latin": "Qabiihun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Jelek / Buruk",
+        "arab": "سَيِّئٌ / قَبِيْحٌ",
+        "latin": "Sayyi'un / Qabiihun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Jendela",
+        "arab": "نَافِذَةٌ",
+        "latin": "Naafidzatun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Jeruk",
+        "arab": "بُرْتُقَالٌ",
+        "latin": "Burtuqaalun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Kacamata",
+        "arab": "نَظَّارَةٌ",
+        "latin": "Nazh-zhaaratun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Kakek",
+        "arab": "جَدٌّ",
+        "latin": "Jaddun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Kaki",
+        "arab": "رِجْلٌ",
+        "latin": "Rijlun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Kalian (L)",
+        "arab": "أَنْتُمْ",
+        "latin": "Antum",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Kamar",
+        "arab": "غُرْفَةٌ",
+        "latin": "Ghurfatun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Kamar Mandi",
+        "arab": "حَمَّامٌ",
+        "latin": "Hammaamun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Kambing",
+        "arab": "غَنَمٌ",
+        "latin": "Ghanamun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Kami / Kita",
+        "arab": "نَحْنُ",
+        "latin": "Nahnu",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Kamu (L)",
+        "arab": "أَنْتَ",
+        "latin": "Anta",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Kamu (P)",
+        "arab": "أَنْتِ",
+        "latin": "Anti",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Kapal",
+        "arab": "سَفِيْنَةٌ",
+        "latin": "Safiinatun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Karpet",
+        "arab": "سَجَّادَةٌ",
+        "latin": "Sajjaadatun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Kecil",
+        "arab": "صَغِيْرٌ",
+        "latin": "Shaghiirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Kelas",
+        "arab": "فَصْلٌ",
+        "latin": "Fashlun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Keluarga",
+        "arab": "أُسْرَةٌ",
+        "latin": "Usratun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Kemarin",
+        "arab": "أَمْسِ",
+        "latin": "Amsi",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Kemeja / Baju",
+        "arab": "قَمِيْصٌ",
+        "latin": "Qamiishun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Kepala",
+        "arab": "رَأْسٌ",
+        "latin": "Ra'sun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Kereta Api",
+        "arab": "قِطَارٌ",
+        "latin": "Qithaarun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Kertas",
+        "arab": "وَرَقٌ",
+        "latin": "Waraqun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Kipas Angin",
+        "arab": "مِرْوَحَةٌ",
+        "latin": "Mirwahatun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Kopi",
+        "arab": "قَهْوَةٌ",
+        "latin": "Qahwatun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Kotor",
+        "arab": "وَسِخٌ",
+        "latin": "Wasikhun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Kuat",
+        "arab": "قَوِيٌّ",
+        "latin": "Qawiyyun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Kucing",
+        "arab": "قِطٌّ",
+        "latin": "Qiththun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Kuda",
+        "arab": "حِصَانٌ",
+        "latin": "Hishaanun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Kunci",
+        "arab": "مِفْتَاحٌ",
+        "latin": "Miftaahun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Kuning",
+        "arab": "أَصْفَرُ",
+        "latin": "Ashfaru",
+        "kat": "Warna"
+    },
+    {
+        "id": "Kurma",
+        "arab": "تَمْرٌ",
+        "latin": "Tamrun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Kursi",
+        "arab": "كُرْسِيٌّ",
+        "latin": "Kursiyyun",
+        "kat": "Di Rumah"
+    },
+    {
+        "id": "Laki-laki",
+        "arab": "رَجُلٌ",
+        "latin": "Rajulun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Lama / Kuno",
+        "arab": "قَدِيْمٌ",
+        "latin": "Qadiimun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Lambat",
+        "arab": "بَطِيْءٌ",
+        "latin": "Bathii'un",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Lampu",
+        "arab": "مِصْبَاحٌ",
+        "latin": "Mishbaahun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Langit",
+        "arab": "سَمَاءٌ",
+        "latin": "Samaa'un",
+        "kat": "Alam"
+    },
+    {
+        "id": "Lantai",
+        "arab": "بَلَاطٌ",
+        "latin": "Balaathun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Lapar",
+        "arab": "جَوْعَانُ",
+        "latin": "Jau'aanu",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Laut",
+        "arab": "بَحْرٌ",
+        "latin": "Bahrun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Lemah",
+        "arab": "ضَعِيْفٌ",
+        "latin": "Dha'iifun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Lemari",
+        "arab": "خِزَانَةٌ",
+        "latin": "Khizaanatun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Lidah",
+        "arab": "لِسَانٌ",
+        "latin": "Lisaanun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Luas",
+        "arab": "وَاسِعٌ",
+        "latin": "Waasi'un",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Makan",
+        "arab": "أَكَلَ",
+        "latin": "Akala",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Makanan",
+        "arab": "طَعَامٌ",
+        "latin": "Tha'aamun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Malam",
+        "arab": "لَيْلٌ",
+        "latin": "Lailun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Mandi",
+        "arab": "اِغْتَسَلَ - يَغْتَسِلُ",
+        "latin": "Ightasala - Yaghtasilu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Manis",
+        "arab": "حُلْوٌ",
+        "latin": "Hulwun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Masjid",
+        "arab": "مَسْجِدٌ",
+        "latin": "Masjidun",
+        "kat": "Tempat"
+    },
+    {
+        "id": "Mata",
+        "arab": "عَيْنٌ",
+        "latin": "'Ainun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Matahari",
+        "arab": "شَمْسٌ",
+        "latin": "Syamsun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Meja",
+        "arab": "مَكْتَبٌ",
+        "latin": "Maktabun",
+        "kat": "Di Rumah"
+    },
+    {
+        "id": "Melihat",
+        "arab": "رَأَى - يَرَى",
+        "latin": "Ra'aa - Yaraa",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Membaca",
+        "arab": "قَرَأَ - يَقْرَأُ",
+        "latin": "Qara'a - Yaqra'u",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Mendengar",
+        "arab": "سَمِعَ - يَسْمَعُ",
+        "latin": "Sami'a - Yasma'u",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Menulis",
+        "arab": "كَتَبَ - يَكْتُبُ",
+        "latin": "Kataba - Yaktubu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Merah",
+        "arab": "أَحْمَرُ",
+        "latin": "Ahmaru",
+        "kat": "Warna"
+    },
+    {
+        "id": "Mereka (L)",
+        "arab": "هُمْ",
+        "latin": "Hum",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Minum",
+        "arab": "شَرِبَ - يَشْرَبُ",
+        "latin": "Syariba - Yasyrabu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Minuman",
+        "arab": "شَرَابٌ",
+        "latin": "Syaraabun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Miskin",
+        "arab": "فَقِيْرٌ",
+        "latin": "Faqiirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Mobil",
+        "arab": "سَيَّارَةٌ",
+        "latin": "Sayyaaratun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Motor",
+        "arab": "جَوَّالَةٌ / دَرَّاجَةٌ نَارِيَّةٌ",
+        "latin": "Jawwaalatun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Mulut",
+        "arab": "فَمٌ",
+        "latin": "Famun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Murid (L)",
+        "arab": "طَالِبٌ",
+        "latin": "Thaalibun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Murid (P)",
+        "arab": "طَالِبَةٌ",
+        "latin": "Thaalibatun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Nabi",
+        "arab": "نَبِيٌّ",
+        "latin": "Nabiyyun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Nama",
+        "arab": "اِسْمٌ",
+        "latin": "Ismun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Nasi",
+        "arab": "رُزٌّ",
+        "latin": "Ruzzun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Nenek",
+        "arab": "جَدَّةٌ",
+        "latin": "Jaddatun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Neraka",
+        "arab": "نَارٌ / جَهَنَّمُ",
+        "latin": "Naarun / Jahannamu",
+        "kat": "Umum"
+    },
+    {
+        "id": "Nyamuk",
+        "arab": "بَعُوْضَةٌ",
+        "latin": "Ba'uudhatun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Obat",
+        "arab": "دَوَاءٌ",
+        "latin": "Dawaa'un",
+        "kat": "Benda"
+    },
+    {
+        "id": "Orang",
+        "arab": "إِنْسَانٌ",
+        "latin": "Insaanun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Otak",
+        "arab": "مُخٌّ",
+        "latin": "Mukhkhun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Pagi",
+        "arab": "صَبَاحٌ",
+        "latin": "Shabaahun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Pakaian",
+        "arab": "لِبَاسٌ",
+        "latin": "Libaasun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Paman (dari Ayah)",
+        "arab": "عَمٌّ",
+        "latin": "'Ammun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Paman (dari Ibu)",
+        "arab": "خَالٌ",
+        "latin": "Khaalun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Panas",
+        "arab": "حَارٌّ",
+        "latin": "Haarrun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Panjang",
+        "arab": "طَوِيْلٌ",
+        "latin": "Thawiilun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Papan Tulis",
+        "arab": "سَبُّوْرَةٌ",
+        "latin": "Sabbuuratun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Pasar",
+        "arab": "سُوْقٌ",
+        "latin": "Suuqun",
+        "kat": "Tempat"
+    },
+    {
+        "id": "Pedagang",
+        "arab": "تَاجِرٌ",
+        "latin": "Taajirun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Pegawai",
+        "arab": "مُوَظَّفٌ",
+        "latin": "Muwazh-zhafun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Pelajaran",
+        "arab": "دَرْسٌ",
+        "latin": "Darsun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Pena / Pulpen",
+        "arab": "قَلَمٌ",
+        "latin": "Qalamun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Pendek",
+        "arab": "قَصِيْرٌ",
+        "latin": "Qashiirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Perempuan",
+        "arab": "اِمْرَأَةٌ",
+        "latin": "Imra'atun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Pergi",
+        "arab": "ذَهَبَ - يَذْهَبُ",
+        "latin": "Dzahaba - Yadzhabu",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Perut",
+        "arab": "بَطْنٌ",
+        "latin": "Bathnun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Pesawat",
+        "arab": "طَائِرَةٌ",
+        "latin": "Thaa'iratun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Petani",
+        "arab": "فَلَّاحٌ",
+        "latin": "Fallaahun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Pintar",
+        "arab": "مَاهِرٌ",
+        "latin": "Maahirun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Pintu",
+        "arab": "بَابٌ",
+        "latin": "Baabun",
+        "kat": "Di Rumah"
+    },
+    {
+        "id": "Piring",
+        "arab": "صَحْنٌ",
+        "latin": "Shahnun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Pisang",
+        "arab": "مَوْزٌ",
+        "latin": "Mawzun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Pohon",
+        "arab": "شَجَرَةٌ",
+        "latin": "Syajaratun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Polisi",
+        "arab": "شُرْطِيٌّ",
+        "latin": "Syurthiyyun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Pulang / Kembali",
+        "arab": "رَجَعَ - يَرْجِعُ",
+        "latin": "Raja'a - Yarji'u",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Pulpen",
+        "arab": "قَلَمٌ",
+        "latin": "Qalamun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Putih",
+        "arab": "أَبْيَضُ",
+        "latin": "Abyadhu",
+        "kat": "Warna"
+    },
+    {
+        "id": "Qari (Pembaca)",
+        "arab": "قَارِئٌ",
+        "latin": "Qaari'un",
+        "kat": "Umum"
+    },
+    {
+        "id": "Quran",
+        "arab": "قُرْآنٌ",
+        "latin": "Qur'aanun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Raja",
+        "arab": "مَلِكٌ",
+        "latin": "Malikun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Rambut",
+        "arab": "شَعْرٌ",
+        "latin": "Sya'run",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Ranjang / Tempat Tidur",
+        "arab": "سَرِيْرٌ",
+        "latin": "Sariirun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Roti",
+        "arab": "خُبْزٌ",
+        "latin": "Khubzun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Rumah",
+        "arab": "بَيْتٌ",
+        "latin": "Baitun",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Sakit",
+        "arab": "مَرِيْضٌ",
+        "latin": "Mariidhun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Sandal",
+        "arab": "نَعْلٌ",
+        "latin": "Na'lun",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Sapi",
+        "arab": "بَقَرَةٌ",
+        "latin": "Baqaratun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Satu",
+        "arab": "وَاحِدٌ",
+        "latin": "Waahidun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Saudara Laki-laki",
+        "arab": "أَخٌ",
+        "latin": "Akhun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Saudara Perempuan",
+        "arab": "أُخْتٌ",
+        "latin": "Ukhtun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Saya",
+        "arab": "أَنَا",
+        "latin": "Ana",
+        "kat": "Kata Ganti"
+    },
+    {
+        "id": "Sekolah",
+        "arab": "مَدْرَسَةٌ",
+        "latin": "Madrasatun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Semangka",
+        "arab": "بِطِّيْخٌ",
+        "latin": "Biththiikhun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Semut",
+        "arab": "نَمْلَةٌ",
+        "latin": "Namlatun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Sendok",
+        "arab": "مِلْعَقَةٌ",
+        "latin": "Mil'aqatun",
+        "kat": "Di Rumah"
+    },
+    {
+        "id": "Sepatu",
+        "arab": "حِذَاءٌ",
+        "latin": "Hidzaa'un",
+        "kat": "Pakaian"
+    },
+    {
+        "id": "Sepeda",
+        "arab": "دَرَّاجَةٌ",
+        "latin": "Darraajatun",
+        "kat": "Transportasi"
+    },
+    {
+        "id": "Shalat",
+        "arab": "صَلَّى - يُصَلِّي",
+        "latin": "Shallaa - Yushallii",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Siang",
+        "arab": "نَهَارٌ",
+        "latin": "Nahaarun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Singa",
+        "arab": "أَسَدٌ",
+        "latin": "Asadun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Sore",
+        "arab": "مَسَاءٌ",
+        "latin": "Masaa'un",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Suami",
+        "arab": "زَوْجٌ",
+        "latin": "Zaujun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Sungai",
+        "arab": "نَهْرٌ",
+        "latin": "Nahrun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Susu",
+        "arab": "لَبَنٌ / حَلِيْبٌ",
+        "latin": "Labanun / Haliibun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Tahun",
+        "arab": "سَنَةٌ / عَامٌ",
+        "latin": "Sanatun / 'Aamun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Tanah",
+        "arab": "تُرَابٌ",
+        "latin": "Turaabun",
+        "kat": "Alam"
+    },
+    {
+        "id": "Tangan",
+        "arab": "يَدٌ",
+        "latin": "Yadun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Tas",
+        "arab": "حَقِيْبَةٌ",
+        "latin": "Haqiibatun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Teh",
+        "arab": "شَايٌ",
+        "latin": "Syaayun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Telinga",
+        "arab": "أُذُنٌ",
+        "latin": "Udzunun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Telur",
+        "arab": "بَيْضَةٌ",
+        "latin": "Baidhatun",
+        "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Tempat",
+        "arab": "مَكَانٌ",
+        "latin": "Makaanun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Tentara",
+        "arab": "جُنْدِيٌّ",
+        "latin": "Jundiyyun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Tidur",
+        "arab": "نَامَ",
+        "latin": "Naama",
+        "kat": "Kata Kerja"
+    },
+    {
+        "id": "Tikus",
+        "arab": "فَأْرٌ",
+        "latin": "Fa'run",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Tinggi",
+        "arab": "طَوِيْلٌ",
+        "latin": "Thawiilun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Tubuh / Badan",
+        "arab": "جِسْمٌ",
+        "latin": "Jismun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Uang",
+        "arab": "نُقُوْدٌ",
+        "latin": "Nuquudun",
+        "kat": "Benda"
+    },
+    {
+        "id": "Ular",
+        "arab": "ثُعْبَانٌ",
+        "latin": "Tsu'baanun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Universitas",
+        "arab": "جَامِعَةٌ",
+        "latin": "Jaami'atun",
+        "kat": "Sekolah"
+    },
+    {
+        "id": "Unta",
+        "arab": "جَمَلٌ",
+        "latin": "Jamalun",
+        "kat": "Hewan"
+    },
+    {
+        "id": "Ustadz",
+        "arab": "أُسْتَاذٌ",
+        "latin": "Ustaadzun",
+        "kat": "Profesi"
+    },
+    {
+        "id": "Utara",
+        "arab": "شَمَالٌ",
+        "latin": "Syamaalun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Vila",
+        "arab": "فِيلَّا",
+        "latin": "Fiilla",
+        "kat": "Rumah"
+    },
+    {
+        "id": "Wajah",
+        "arab": "وَجْهٌ",
+        "latin": "Wajhun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Wajah / Muka",
+        "arab": "وَجْهٌ",
+        "latin": "Wajhun",
+        "kat": "Anggota Tubuh"
+    },
+    {
+        "id": "Waktu",
+        "arab": "وَقْتٌ",
+        "latin": "Waqtun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Wanita",
+        "arab": "نِسَاءٌ",
+        "latin": "Nisaa'un",
+        "kat": "Umum"
+    },
+    {
+        "id": "Warna",
+        "arab": "لَوْنٌ",
+        "latin": "Launun",
+        "kat": "Warna"
+    },
+    {
+        "id": "X-Ray (Sinar-X)",
+        "arab": "أَشِعَّةٌ",
+        "latin": "Asyi'atun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Yahudi",
+        "arab": "يَهُوْدِيٌّ",
+        "latin": "Yahuudiyyun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Yatim",
+        "arab": "يَتِيْمٌ",
+        "latin": "Yatiimun",
+        "kat": "Keluarga"
+    },
+    {
+        "id": "Zaitun",
+        "arab": "زَيْتُوْنٌ",
+        "latin": "Zaituunun",
+        "kat": "Buah & Sayur"
+    },
+    {
+        "id": "Zakat",
+        "arab": "زَكَاةٌ",
+        "latin": "Zakaatun",
+        "kat": "Umum"
+    },
+    {
+        "id": "Zalim",
+        "arab": "ظَالِمٌ",
+        "latin": "Zhaalimun",
+        "kat": "Kata Sifat"
+    },
+    {
+        "id": "Zaman",
+        "arab": "زَمَانٌ",
+        "latin": "Zamaanun",
+        "kat": "Waktu"
+    },
+    {
+        "id": "Ziarah",
+        "arab": "زِيَارَةٌ",
+        "latin": "Ziyaaratun",
+        "kat": "Umum"
+    }
 ]
