@@ -78,6 +78,12 @@
         "kat": "Pakaian"
     },
     {
+        "id": "Bandara",
+        "arab": "مَطَارٌ",
+        "latin": "Mathaarun",
+        "kat": "Tempat"
+    },
+    {
         "id": "Bangun",
         "arab": "قَامَ - يَقُوْمُ",
         "latin": "Qaama - Yaqaumu",
@@ -166,6 +172,12 @@
         "arab": "أَزْرَقُ",
         "latin": "Azraqu",
         "kat": "Warna"
+    },
+    {
+        "id": "Buah",
+        "arab": "فَاكِهَةٌ",
+        "latin": "Faakihatun",
+        "kat": "Makanan & Minuman"
     },
     {
         "id": "Buku",
@@ -358,6 +370,12 @@
         "arab": "مِلْحٌ",
         "latin": "Milhun",
         "kat": "Makanan & Minuman"
+    },
+    {
+        "id": "Gaun",
+        "arab": "فُسْتَانٌ",
+        "latin": "Fustaanun",
+        "kat": "Pakaian"
     },
     {
         "id": "Gelap",
@@ -648,6 +666,12 @@
         "kat": "Rumah"
     },
     {
+        "id": "Kaus Kaki",
+        "arab": "جَوْرَبٌ",
+        "latin": "Jawrabun",
+        "kat": "Pakaian"
+    },
+    {
         "id": "Kecil",
         "arab": "صَغِيْرٌ",
         "latin": "Shaghiirun",
@@ -672,6 +696,12 @@
         "kat": "Waktu"
     },
     {
+        "id": "Kemeja",
+        "arab": "قَمِيْصٌ",
+        "latin": "Qamiishun",
+        "kat": "Pakaian"
+    },
+    {
         "id": "Kemeja / Baju",
         "arab": "قَمِيْصٌ",
         "latin": "Qamiishun",
@@ -694,6 +724,12 @@
         "arab": "وَرَقٌ",
         "latin": "Waraqun",
         "kat": "Sekolah"
+    },
+    {
+        "id": "Kerudung",
+        "arab": "حِجَابٌ",
+        "latin": "Hijaabun",
+        "kat": "Pakaian"
     },
     {
         "id": "Kipas Angin",
@@ -1110,6 +1146,12 @@
         "kat": "Kata Kerja"
     },
     {
+        "id": "Perpustakaan",
+        "arab": "مَكْتَبَةٌ",
+        "latin": "Maktabatun",
+        "kat": "Tempat"
+    },
+    {
         "id": "Perut",
         "arab": "بَطْنٌ",
         "latin": "Bathnun",
@@ -1222,6 +1264,12 @@
         "arab": "بَيْتٌ",
         "latin": "Baitun",
         "kat": "Rumah"
+    },
+    {
+        "id": "Rumah Sakit",
+        "arab": "مُسْتَشْفَى",
+        "latin": "Mustasyfaa",
+        "kat": "Tempat"
     },
     {
         "id": "Sakit",
@@ -1350,6 +1398,12 @@
         "kat": "Waktu"
     },
     {
+        "id": "Taman",
+        "arab": "حَدِيْقَةٌ",
+        "latin": "Hadiiqatun",
+        "kat": "Tempat"
+    },
+    {
         "id": "Tanah",
         "arab": "تُرَابٌ",
         "latin": "Turaabun",
@@ -1414,6 +1468,12 @@
         "arab": "طَوِيْلٌ",
         "latin": "Thawiilun",
         "kat": "Kata Sifat"
+    },
+    {
+        "id": "Topi",
+        "arab": "قُبَّعَةٌ",
+        "latin": "Qubba'atun",
+        "kat": "Pakaian"
     },
     {
         "id": "Tubuh / Badan",
